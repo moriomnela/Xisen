@@ -283,12 +283,12 @@ Custom Cursor
   margin-right: 0px;
 }
 
-.pt-0 {
-  padding-top: 0px;
+.pt-150 {
+  padding-top: 150px;
 }
 
-.pb-0 {
-  padding-bottom: 0px;
+.pb-120 {
+  padding-bottom: 120px;
 }
 
 .pl-0 {
@@ -303,8 +303,11 @@ Custom Cursor
   margin-top: 5px;
 }
 
-.mb-5 {
-  margin-bottom: 5px;
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-80 {
+  margin-bottom: 80px;
 }
 
 .ml-5 {

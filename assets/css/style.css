@@ -66,7 +66,7 @@ input[type="submit"] {
   border: 1px solid #272A2A;
   border-color: transparent;
   border-radius: 4px;
-  background: #04D2C8;
+  background: #00c867;
   color: #FFFFFF;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
@@ -213,10 +213,11 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 22px;
   line-height: 40px;
   padding: 0;
   margin: 0;
+  font-weight: 600;
   color: #2c303e;
   font-family: "Poppins", serif;  font-weight: 500;
 }
@@ -480,6 +481,9 @@ Theme Btn CSS
    color: #00c867;
    display: block;
 }
+.slider-text h1 {
+  color: #4d526c;
+}
 .slider-img {
   padding-left: 70px;
 }
@@ -487,3 +491,66 @@ Theme Btn CSS
   padding: 100px 0px;
 }
 /* Slider - area End*/
+/* How-work- area Start*/
+.section-title h2{
+  font-size: 45px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  color: #4d526c;
+}
+.how-work {
+  padding: 50px 35px;
+  padding-top: 45px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: .3s;
+}
+.how-work:hover {
+  transform: translateY(-10px);
+}
+
+.how-work-icon {
+  margin-bottom: 12px;
+}
+.how-work-text h3 {
+  margin-bottom: 15px;
+  font-family: "poppins";
+}
+ .how-work-text p {
+  font-family: "poppins";
+  margin-bottom: 25px;
+  margin: 0;
+ }
+ .how-work-link a {
+  color: #2c303e;
+   font-size: 12px;
+   font-weight: 500;
+   text-transform: uppercase;
+   position: relative;
+   display: inline-block;
+ }
+ .how-work-link a:hover {
+    color: #00c867;
+ }
+ 
+ .how-work-link a::after {
+  position: absolute;
+  background: #c3ecd8;
+  content: "";
+  width: 10px;
+  height: 15px;
+  right: -18px;
+  top: 4px;
+ }
+/* How-work- area End*/
+/* Access- area Start*/
+.access-img img {
+  margin-left: -120px;
+}
+.access-text h2 {
+  font-size: 45px;
+  color: #4d526c;
+  font-weight: 700;
+  margin: 13px 0;
+  margin-top: 18px;
+}
+/* Access- area End*/
