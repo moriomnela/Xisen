@@ -553,4 +553,7 @@ Theme Btn CSS
   margin: 13px 0;
   margin-top: 18px;
 }
+.access-text p {
+  margin-bottom: 50px;
+}
 /* Access- area End*/
