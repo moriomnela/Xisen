@@ -514,6 +514,7 @@ Theme Btn CSS
 .how-work-text h3 {
   margin-bottom: 15px;
   font-family: "poppins";
+  color: #4d526c;
 }
  .how-work-text p {
   font-family: "poppins";
@@ -557,3 +558,10 @@ Theme Btn CSS
   margin-bottom: 50px;
 }
 /* Access- area End*/
+/* Single-features - area Start*/
+.single-features {
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Single-features - area End*/
