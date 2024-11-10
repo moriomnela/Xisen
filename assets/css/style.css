@@ -563,5 +563,7 @@ Theme Btn CSS
   box-shadow: none;
   padding: 0;
 }
-
+.single-features p {
+  padding: 15px;
+}
 /* Single-features - area End*/
