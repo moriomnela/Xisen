@@ -567,3 +567,8 @@ Theme Btn CSS
   padding: 15px;
 }
 /* Single-features - area End*/
+/* access-area - area start*/
+.access-img-2 img {
+  margin-left: 120px;
+}
+/* access-area - area end*/
