@@ -33,7 +33,9 @@ i {
   color: #000000;
 }
 
- 
+ul li {
+  list-style: none;
+}
 a:hover {
   text-decoration: none;
   color: #fff;
@@ -572,3 +574,9 @@ Theme Btn CSS
   margin-left: 120px;
 }
 /* access-area - area end*/
+/*price- area start*/
+.price-box {
+  border: 1px solid #eaecea;
+  padding: 35px 30px;
+}
+/*price- area end*/
