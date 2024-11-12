@@ -579,4 +579,7 @@ Theme Btn CSS
   border: 1px solid #eaecea;
   padding: 35px 30px;
 }
+.price-header h3 {
+  font-size: 24px;
+}
 /*price- area end*/
