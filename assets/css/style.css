@@ -581,5 +581,8 @@ Theme Btn CSS
 }
 .price-header h3 {
   font-size: 24px;
+  padding-bottom: 20PX;
+  border-bottom: 1PX solid #eaecee;
+  margin-bottom: 30px;
 }
 /*price- area end*/
