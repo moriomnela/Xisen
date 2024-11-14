@@ -579,10 +579,39 @@ Theme Btn CSS
   border: 1px solid #eaecea;
   padding: 35px 30px;
 }
-.price-header h3 {
+.price-header h4 {
   font-size: 24px;
   padding-bottom: 20PX;
-  border-bottom: 1PX solid #eaecee;
+  border-bottom: 1px solid #eaecee;
   margin-bottom: 30px;
+  margin-top: 5px;
+}
+.price-text h5{
+  font-size: 24px;
+  color: #2c3032;
+  margin-bottom: 20px;
+}
+.price-text h5 span {
+  font-size: 18px;
+  color: #7f7f7f;
+}
+.price-plan-list ul li {
+  color: #7f7f7f;
+  font-weight: 300;
+  margin-bottom: 15px;
+  
+}
+.price-link {
+  border-top: 1px solid #eaecee;
+  padding-top: 32px;
+  margin-top: 30px;
+}
+.price-link a {
+  text-transform: uppercase;
+  color: #2c303e;
+  font-weight: 550;
+}
+.price-link a:hover {
+  color: #00c867;
 }
 /*price- area end*/
