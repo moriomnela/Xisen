@@ -638,3 +638,38 @@ Theme Btn CSS
 .title-black h2{
   color: #2c303e;
 }
+/*testimnonial- area end*/
+/*brand- area start*/
+.brand-active {
+  display: flex;
+  justify-content: space-between;
+}
+.single-brand {
+  align-items: center;
+}
+/*brand- area end*/
+/*newsletter- area start*/
+.newsletter input {
+  height: 80px;
+  width: 68%;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+  text-transform: uppercase;
+  float: left;
+}
+.newsletter button{
+  height: 80px;
+  border: 0;
+  text-transform: uppercase;
+  color: #fff;
+  float: right;
+  padding: 0 70px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/*newsletter- area end*/
+/*footer- area start*/
+.footer-text p {
+  margin-bottom: 30px;
+}
+/*footer- area end*/
