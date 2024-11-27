@@ -669,7 +669,54 @@ Theme Btn CSS
 }
 /*newsletter- area end*/
 /*footer- area start*/
+.footer-bg {
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.footer-text img {
+  margin-bottom: 30px;
+}
+.footer-social a {
+  font-size: 14px;
+  color: #b8bcbf;
+  margin-right: 15px;
+}
+.footer-social a:hover {
+  color: #00c867;
+}
 .footer-text p {
   margin-bottom: 30px;
+}
+.footer-widget h3 {
+  color: #2c303e;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 28px;
+  margin-bottom: 35px;
+}
+.footer-widget ul li{
+  margin-bottom: 20px;
+  line-height: 1;
+  font-size: 14px;
+}
+.footer-widget ul li a{
+  padding: 0;
+  color: #7f7f7f; 
+
+}
+.footer-widget ul li a:hover {
+color: #00c867;
+}
+.copyright-border {
+  border-top: 1px solid #dddddd;
+  padding: 30px 0;
+}
+.footer-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu ul li a {
+  color: #7f7f7f;
+  font-size: 14px;
 }
 /*footer- area end*/
