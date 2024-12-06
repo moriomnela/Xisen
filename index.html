@@ -31,6 +31,8 @@
 	<link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
 	<link rel="stylesheet" href="assets/css/themify-icons.css">
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 </head>
 
 <body >
@@ -422,7 +424,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
-						<div class="brand-active ">
+						<div class="brand-active swiper_slider">
 							<div class="single-brand">
 								<img src="assets/img/01.png" alt="">
 							</div>
@@ -591,6 +593,19 @@
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/fontawesome.min.js"></script>
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".swiper_slider", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			}
+		});
+		</script>
+		
 </body>
 
 </html>

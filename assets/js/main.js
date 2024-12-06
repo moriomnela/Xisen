@@ -14,6 +14,18 @@ $('.main-menu nav ul').onePageNav({
 	scrollOffset: top_offset,
 });
 
+// Initialize Swiper
+var swiper = new Swiper(".swiper_slider", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    }
+});
+
+
+
 
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
