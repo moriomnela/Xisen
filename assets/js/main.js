@@ -1,3 +1,7 @@
+const container = document.querySelector(".container");
+const lekeBtns = document.querySelector(".like-btn");
+
+
 (function ($) {
 "use strict";
 
