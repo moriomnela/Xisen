@@ -84,8 +84,40 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    .slider-text h1 {
+        font-size: 39px;
+    }
+    .slider-img {
+        padding-left: 0px;
+    }
     .slider-img {
         margin-top: 40px;
+    }
+    .access-text h2 {
+        font-size: 32px;
+    }
+    .access-text p {
+        font-size: 14px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .how-work-text h3 {
+        font-size: 24px;
+    }
+    .single-features p {
+        font-size: 14px;
+    }
+    .newsletter input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newsletter button {
+        float: none;
+
+    }
+    .footer-widget h3 {
+        margin-bottom: 10px;
     }
     .how-work {
         margin-bottom: 25px;

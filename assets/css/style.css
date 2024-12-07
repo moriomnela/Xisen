@@ -639,9 +639,8 @@ Theme Btn CSS
   color: #2c303e;
 }
 .swiper-wrapper {
- padding: 70px;
- text-align: left;
-
+  padding-bottom: 50px;
+  text-align: left;
 }
 /*testimnonial- area end*/
 /*brand- area start*/

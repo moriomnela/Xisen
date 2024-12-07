@@ -26,18 +26,10 @@ var swiper = new Swiper(".brand-slider-active", {
 	autoplay: {
       delay:5000,
 	},
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: false,
-    }
 });
 var swiper = new Swiper(".brand-slider-active", {
-	slidesPerView: 1,
+	slidesPerView: 2,
 	spaceBetween: 10,
-	pagination: {
-	  el: ".swiper-pagination",
-	  clickable: true,
-	},
 	breakpoints: {
 	  480: {
 		slidesPerView: 2,
@@ -53,17 +45,32 @@ var swiper = new Swiper(".brand-slider-active", {
 
 var swiper = new Swiper(".testimonial-active", {
 	slidesPerView: 1,
-	spaceBetween: 0,
-	loop:3,
-	autoplay: {
-      delay:5000,
-	},
+	spaceBetween: 100,
+	loop:1,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     }
 });
-
+var swiper = new Swiper(".testimonial-active", {
+	slidesPerView: 1,
+	spaceBetween: 100,
+	pagination: {
+	  el: ".swiper-pagination",
+	  clickable: true,
+	},
+	breakpoints: {
+	  480: {
+		slidesPerView: 1,
+	  },
+	  768: {
+		slidesPerView: 1,
+	  },
+	  1024: {
+		slidesPerView: 1,
+	  },
+	},
+  });
 
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
