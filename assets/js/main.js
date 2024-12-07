@@ -31,6 +31,25 @@ var swiper = new Swiper(".brand-slider-active", {
         clickable: false,
     }
 });
+var swiper = new Swiper(".brand-slider-active", {
+	slidesPerView: 1,
+	spaceBetween: 10,
+	pagination: {
+	  el: ".swiper-pagination",
+	  clickable: true,
+	},
+	breakpoints: {
+	  480: {
+		slidesPerView: 2,
+	  },
+	  768: {
+		slidesPerView: 3,
+	  },
+	  1024: {
+		slidesPerView: 5,
+	  },
+	},
+  });
 
 var swiper = new Swiper(".testimonial-active", {
 	slidesPerView: 1,
@@ -44,7 +63,6 @@ var swiper = new Swiper(".testimonial-active", {
         clickable: true,
     }
 });
-
 
 
 $(window).on('scroll', function () {
