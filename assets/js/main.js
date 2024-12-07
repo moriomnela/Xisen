@@ -12,22 +12,38 @@ $('#mobile-menu').meanmenu({
 });
 
 // One Page Nav
-var top_offset = $('.header-area').height() - 10;
-$('.main-menu nav ul').onePageNav({
-	currentClass: 'active',
-	scrollOffset: top_offset,
-});
+//var top_offset = $('.header-area').height() - 10;
+//$('.main-menu nav ul').onePageNav({
+	//currentClass: 'active',
+	//scrollOffset: top_offset,
+//});
 
 // Initialize Swiper
-var swiper = new Swiper(".swiper_slider", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+var swiper = new Swiper(".brand-slider-active", {
+	slidesPerView: 5,
+	spaceBetween: 0,
+	loop:3,
+	autoplay: {
+      delay:5000,
+	},
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: false,
+    }
+});
+
+var swiper = new Swiper(".testimonial-active", {
+	slidesPerView: 1,
+	spaceBetween: 0,
+	loop:3,
+	autoplay: {
+      delay:5000,
+	},
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     }
 });
-
 
 
 

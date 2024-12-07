@@ -623,20 +623,25 @@ Theme Btn CSS
 .testimonial-img img {
   margin-left: -70px;
 }
-.single-testimonial span b {
+.section-title span b {
   font-size: 20px;
   color: #2c303e;
   font-weight: 600;
 }
-.single-testimonial span  {
+.section-title span  {
   font-weight: 550;
   font-size: 15px;
 }
-.single-testimonial h2 {
+.section-title h2 {
   margin-bottom: 35px;
 }
 .title-black h2{
   color: #2c303e;
+}
+.swiper-wrapper {
+ padding: 70px;
+ text-align: left;
+
 }
 /*testimnonial- area end*/
 /*brand- area start*/
