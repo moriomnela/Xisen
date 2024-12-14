@@ -73,30 +73,12 @@ input[type="submit"] {
   line-height: 1;
   padding: 0.6em 1em 0.4em;
 }
-
+/*Home-page-1 button*/
 .button-1 {
   border: 1px solid #272A2A;
   border-color: #00c867;
   border-radius: 50px;
-  background: #fff;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: 1;
-  padding: 17px 35px;
-  margin: 5px;
-}
-.header-btn a:hover {
-  background-color: #20c997;
-  color: #ffff;
-
-} 
-
-.button-2 {
-  border: 1px solid #272A2A;
-  border-color: #00c867;
-  border-radius: 50px;
-  background: #20c997;
+  background: #00c867;
   font-size: 13px;
   color: #fff;
   font-weight: 600;
@@ -105,8 +87,55 @@ input[type="submit"] {
   padding: 17px 35px;
   margin: 5px;
 }
-
-
+.button-1.button-border {
+  border: 1px solid #272A2A;
+  border-color: #00c867;
+  border-radius: 50px;
+  background: #fff;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 17px 35px;
+  margin: 5px;
+  transition: .4s;
+}
+.button-1.button-border:hover{
+  background: #00c867;
+  color: #fff;
+  border-color: #00c867;
+}
+/*Home-page-2 button*/
+.button-2.button-border{
+  border: 1px solid #e0e3e7;
+  border-radius: 3px;
+  background: #fff;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 17px 35px;
+  margin: 5px;
+}
+.button-2 {
+  border-radius: 3px;
+  transition: .4s;
+  border: 1px solid #e0e3e7;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 17px 35px;
+  margin: 5px;
+}
+.button-2:hover {
+ border-color: #ff5b5b;
+ background: #ff5b5b;
+ color: #fff;
+}
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -424,8 +453,8 @@ Theme Btn CSS
 <i class="fal fa-long-arrow-right"></i></a> */
 
 /* Header- area Start*/
-
-.main-menu {
+.header-area.header-bg {
+  padding: 30px 0px;
 }
 .main-menu ul {
   margin: 0;
@@ -441,27 +470,26 @@ Theme Btn CSS
   color: #2c303e;
   font-weight: 500;
   font-family: "Poppins", serif;
-  padding: 30px 0px;
   text-transform: uppercase;
-  transition: .3s;
+  transition: .4s;
 }
 .main-menu ul li a:hover{
   color: #00c867;
 }
 .main-menu ul li ul.submenu {
- position: absolute;
- width: 250px;
- top: 110%;
- left: 0;
- background: #fff;
- border-top: 2px solid #00c867;
- text-align: left;
- transition: .3s;
- box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
- padding: 15px 0px;
- opacity: 0;
- visibility: hidden;
-
+  position: absolute;
+  width: 250px;
+  top: 110%;
+  left: 0;
+  background: #fff;
+  border-top: 2px solid #00c867;
+  text-align: left;
+  transition: .3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 0px;
+  margin-top: 25px;
+  opacity: 0;
+  visibility: hidden;
 }
 .main-menu ul li:hover > ul.submenu  {
   opacity: 1;
@@ -477,6 +505,11 @@ Theme Btn CSS
  text-transform: capitalize;
 }
 /* Header- area End*/
+/* Header-2 area start*/
+.red-menu ul li:hover a {
+  color: #ff5b5b;
+}
+
 
 /* Slider - area Start*/
 .slider-text h1 span{
