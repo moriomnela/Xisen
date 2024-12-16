@@ -509,7 +509,6 @@ Theme Btn CSS
 /* Header-2 area start*/
 .main-menu.red-menu ul li:hover > a{
   color: #ff5b5b;
-  padding: 45px 0px;
 }
 .main-menu.red-menu ul li ul.submenu {
   border-top: 2px solid #ff5b5b;
@@ -523,7 +522,7 @@ Theme Btn CSS
   color: #4d526c;
 }
 .slider-img {
-  padding-left: 70px;
+  padding-left: 95px;
 }
 .single-slider {
   padding: 100px 0px;
