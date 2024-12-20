@@ -270,7 +270,12 @@ Custom Cursor
 .mt-0 {
   margin-top: 0px;
 }
-
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -291,6 +296,15 @@ Custom Cursor
 .pt-250 {
   padding-top: 250px;
 }
+.pt-35 {
+  padding-top: 35px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pb-45 {
+  padding-bottom: 45px;
+}
 .pb-120 {
   padding-bottom: 120px;
 }
@@ -298,11 +312,22 @@ Custom Cursor
 .pl-0 {
   padding-left: 0px;
 }
-
-.pr-0 {
-  padding-right: 0px;
+.pl-70 {
+  padding-left: 70px;
+}
+.pl-80 {
+  padding-left: 80px;
+}
+.pl-20 {
+  padding-left: 20px;
 }
 
+.pr-70 {
+  padding-right: 70px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
 .mt-5 {
   margin-top: 5px;
 }
@@ -322,20 +347,21 @@ Custom Cursor
   margin-right: 5px;
 }
 
-.pt-35 {
-  padding-top: 35px;
-}
-
 .pb-5 {
   padding-bottom: 5px;
 }
-
+.pl-30 {
+  padding-left: 30px;
+}
 .pl-50 {
   padding-left: 50px;
 }
 
 .pr-5 {
   padding-right: 5px;
+}
+.pr-25 {
+  padding-right: 25px;
 }
 
 .mt-10 {

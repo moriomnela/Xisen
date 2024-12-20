@@ -130,7 +130,7 @@ input[type="submit"] {
   line-height: 1;
   background: #fff;
   padding: 17px 35px;
-  margin: 5px;
+  margin: 0px;
 }
 .button-2:hover {
  border-color: #ff5b5b;
@@ -239,8 +239,10 @@ h2 {
   font-size: 32px;
   line-height: 58px;
   padding: 0;
+  font-style: normal;
+  font-weight: 600;
   margin: 0;
-  color: #2c303e;
+  color: #233d63;
   font-family: "Poppins", serif;  font-weight: 700;
 }
 
@@ -250,7 +252,7 @@ h3 {
   padding: 0;
   margin: 0;
   font-weight: 600;
-  color: #2c303e;
+  color: #233d63;
   font-family: "Poppins", serif;  font-weight: 500;
 }
 
@@ -513,6 +515,48 @@ Theme Btn CSS
 .main-menu.red-menu ul li ul.submenu {
   border-top: 2px solid #ff5b5b;
 }
+/*features-area-2*/
+.single-features .fea-text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #7b8491;
+  margin-bottom: 15px;
+  transition: .3s;
+}
+.single-features .fea-icon {
+  margin-bottom: 10px;
+}
+.fea-icon img {
+  position: absolute;
+  top: -21px;
+  left: -26px;
+  transition: .3s;
+}
+.features-list:hover .fea-icon img {
+  left: -40px;
+  transition: .3s;
+}
+.fea-icon img {
+  position: relative;
+  display: inline-block;
+}
+.fea-icon span {
+  background: #fbe8ff;
+  height: 55px;
+  width: 55px;
+  border-radius: 100px;
+  display: inline-block;
+}
+.features-parent .col-xl-6:nth-child(1) .fea-icon span {
+  background: #eef5ff;
+}
+.features-parent .col-xl-6:nth-child(2) .fea-icon span {
+  background: #ffe7e7;
+}
+.features-parent .col-xl-6:nth-child(4) .fea-icon span {
+  background: #ffefbd;
+}
 /* Slider - area Start*/
 .slider-text h1 span{
    color: #00c867;
@@ -540,15 +584,170 @@ Theme Btn CSS
 }
 .slider-text.slider-text-2 h1 {
   color: #fff;
+  line-height: 60px;
+  padding-left: 40px;
 }
-
-/* How-work- area Start*/
+/* Slider-area-2 end*/
+/*Homepage-2 CSS*/
 .section-title h2{
   font-size: 45px;
   margin-bottom: 10px;
   line-height: 1.3;
   color: #4d526c;
 }
+.section-title-2 span {
+  color: #ff5b5b;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  margin-bottom: 20px;
+  display: block;
+}
+.section-title-2 h2 {
+ font-size: 36px;
+ font-weight: 500;
+}
+/*Homepage-2 CSS*/
+/*What-we-do-area start*/
+.what-do-list {
+  border: 1px solid #dee2e8;
+  padding: 50px;
+  transition: .3s;
+}
+.what-do-list .what-text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #7b8491;
+  margin-bottom: 40px;
+  transition: .3s;
+}
+.what-do-list .what-icon {
+  margin-bottom: 10px;
+}
+.what-icon img {
+  position: absolute;
+  top: 7px;
+  left: 28px;
+  transition: .3s;
+}
+.what-do-list:hover .what-icon img {
+  left: 20px;
+  transition: .3s;
+}
+.what-icon {
+  position: relative;
+  display: inline-block;
+}
+.what-do-list h3 {
+  transition: .3s;
+}
+.what-do-list p{
+  transition: .3s;
+}
+.what-do-list:hover h3{
+  color: #fff;
+}
+.what-do-list:hover p{
+  color: #fff;
+}
+.what-do-list a {
+  transition: .3s;
+}
+.what-do-list:hover a{
+  color: #fff;
+}
+.what-text {
+  position: relative;
+}
+.what-text h3{
+   padding-top: 20px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+}
+.what-text a{
+  color: #ff5b5b;
+  font-size: 15px;
+  font-weight: 500;
+}
+.what-text::before{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 170px;
+  height: 2px;
+  content: "";
+  background: #dee2e8;
+  margin: auto;
+}
+.what-do-list:hover {
+  background: #ff5b5b;
+}
+.what-icon span {
+  background: #fbe8ff;
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.features-parent .col-xl-6:nth-child(1) .fea-icon span {
+  background: #eef5ff;
+}
+.features-parent .col-xl-6:nth-child(2) .fea-icon span {
+  background: #ffe7e7;
+}
+.features-parent .col-xl-6:nth-child(4) .fea-icon span {
+  background: #ffefbd;
+}
+/*runfaster-list*/
+.runfaster-list-area{
+  position: relative;
+}
+.runfaster-content-list h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.runfaster-content-list span {
+  font-size: 17px;
+  color: #ff5b5b;
+  line-height: 26px;
+  margin-bottom: 19px;
+  display: block;
+}
+.runfaster-content-list p {
+  margin-bottom: 40px;
+}
+.runfaster-icon img {
+  position: absolute;
+  top: 20px;
+  left: 339px;
+  transition: .3s;
+}
+.runfaster-icon span {
+  background: #fbe8ff;
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  display: inline-block;
+}
+.runfaster-icon img {
+  position: absolute;
+  top: 20px;
+  left: 339px;
+  transition: .3s;
+}
+.runfaster-icon.setting-icon img {
+  position: absolute;
+  top: 20px;
+  left: 920px;
+}
+/*What-we-do-area end*/
+/* How-work- area Start*/
 .how-work {
   padding: 50px 35px;
   padding-top: 45px;
@@ -668,6 +867,19 @@ Theme Btn CSS
   color: #00c867;
 }
 /*price- area end*/
+/*Price-area-2 start*/
+.price2-img::before {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  border: ;
+  content: "";
+}
+.price2-value h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+/*Price-area-2 end*/
 /*testimnonial- area start*/
 .testimonial-img img {
   margin-left: -70px;
