@@ -738,6 +738,9 @@ color: #00c867;
   color: #7f7f7f;
   font-size: 14px;
 }
+.footer-social a i:hover{
+ color: #00c867; 
+}
 /*footer- area end*/
 
 /*Home-area 2*/
@@ -825,6 +828,7 @@ color: #00c867;
 .section-title-2 h2 {
  font-size: 36px;
  font-weight: 500;
+ margin: 0;
 }
 /*What-we-do-area start*/
 .what-do-list {
@@ -953,15 +957,26 @@ color: #00c867;
   display: inline-block;
 }
 .runfaster-icon img {
+  position: relative;
+}
+.runfaster-icon{
+  position: relative;
+  display: inline-block;
+}
+.runfaster-icon img {
   position: absolute;
   top: 20px;
-  left: 339px;
-  transition: .3s;
+  left: 35px;
+}
+/*setting-area*/
+.runfaster-icon.setting-icon {
+  position: relative;
+  display: inline-block;
 }
 .runfaster-icon.setting-icon img {
   position: absolute;
   top: 20px;
-  left: 920px;
+  left: 35px;
 }
 /*Price-area-2 start*/
 .section-title.price2-title span {
@@ -1029,5 +1044,41 @@ color: #00c867;
  /*Client-area*/
  .client-area {
   background-color: #fffaff;
-  padding: 70px;
+  padding: 25px;
  }
+ .section-title-2.client-title span{
+  padding-top: 100px;
+ }
+ .section-title-2.client-title h2{
+  padding-bottom: 30px;
+ }
+ /*footer*/
+ .footer-text.footer-text-2 p {
+  color: #8d96a2;
+  padding: 10px;
+ }
+ .footer-social.social-2 a i {
+  color: #8d96a2;
+  transition: .3s;
+ }
+ .footer-social.social-2 a i:hover {
+  color: #1c3354;
+ }
+ .footer-widget.footer-widget-2 ul li a:hover {
+  color: #1c3354;
+}
+.footer-widget.footer-widget-2 h3 {
+  color: #2c303e;
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 28px;
+  margin-bottom: 35px;
+}
+.footer-widget.footer-widget-2 ul li {
+  margin-bottom: 20px;
+  line-height: 1;
+  font-size: 14px;
+}
+.footer-widget.footer-widget-2 ul li a {
+ color: #8d9ca2;
+}

@@ -4,6 +4,9 @@
     margin-right: 0;
     margin-left: 25px;
   }   
+  .slider-2-padding {
+    padding: 0px 50px;
+}
 
 }
 
@@ -43,6 +46,32 @@
     }
     .footer-bg {
         background-size: cover;
+    }
+    .slider-2-padding {
+        padding: 0px;
+    }
+    .features-parent {
+        padding-top: -2px;
+        margin-top: -70px;
+    }
+    .features-list {
+        margin-top: 0px;
+    }
+    .runfaster-list-right-img {
+        padding-left: 0px;
+    }
+    .runfaster-list-right-img img {
+        max-width: 100%;
+    }
+    .runfaster-content-list h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    .runfaster-content-list span {
+        margin-bottom: 5px;
+    }
+    .price2-box p {
+        padding: 0px;
     }
 }
 
