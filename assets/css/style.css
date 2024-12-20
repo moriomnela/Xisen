@@ -479,6 +479,9 @@ Theme Btn CSS
 .main-menu ul li a:hover{
   color: #00c867;
 }
+.main-menu {
+  position: relative;
+}
 .main-menu ul li ul.submenu {
   position: absolute;
   width: 250px;
@@ -521,6 +524,36 @@ Theme Btn CSS
 }
 .single-slider {
   padding: 100px 0px;
+}
+.slider-area{
+  position: relative;
+}
+.shape {
+  position: absolute;
+}
+.shape-1 {
+  left: 16%;
+  top: 25%;
+}
+.shape-2 {
+  left: 5%;
+  top: 57%;
+}
+.shape-3 {
+  left: 18%;
+  top: 81%;
+}
+.shape-4 {
+  left: 45%;
+  top: 81%;
+}
+.shape-5 {
+  left: 90%;
+  top: 0%;
+}
+.shape-6 {
+  left: 84%;
+  top: 80%;
 }
 /* Slider - area End*/
 /* How-work- area Start*/
