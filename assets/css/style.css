@@ -834,6 +834,7 @@ color: #00c867;
 .what-do-list {
   border: 1px solid #dee2e8;
   padding: 50px;
+  margin: 10px;
   transition: .3s;
 }
 .what-do-list .what-text p{

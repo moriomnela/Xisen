@@ -107,8 +107,11 @@
     .footer-bg {
         background-size: cover;
     }
-
+    .slider-2-padding {
+        padding: 0; 
+    }
 }
+
 
  
 /* small mobile :320px. */
