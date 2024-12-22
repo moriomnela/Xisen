@@ -496,6 +496,7 @@ Theme Btn CSS
   margin-top: 25px;
   opacity: 0;
   visibility: hidden;
+  z-index: 1;
 }
 .main-menu ul li:hover > ul.submenu  {
   opacity: 1;
