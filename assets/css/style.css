@@ -1285,4 +1285,42 @@ top: 5px;
   color: #00c867;
   border-bottom: 2px solid #00c867;
 }
-
+/*team-member start*/
+.team-text p {
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+.team-member .team-text p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.team-member .team-icon a i {
+  color: #7e8383;
+  padding: 3px;
+}
+.team-member .team-icon a i:hover {
+  color: #9411c6;
+}
+/*team-member end*/
+/*testimonial-area start*/
+.testimonial-img-3 {
+  position: relative;
+}
+.testimonial-img-3 .testimonial-slide-1 {
+  position: absolute;
+  display: inline-block;
+  right: 52px;
+}
+.testimonial-img-3 .testimonial-slide-2 {
+  position: absolute;
+  display: inline-block;
+  right: 185px;
+  font-weight: 100;
+  width: 70px;
+}
+.testimonial-img-3 .testimonial-slide-3 {
+  position: absolute;
+  display: inline-block;
+  right: -45px;
+  width: 70px;
+}

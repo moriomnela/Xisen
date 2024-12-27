@@ -52,6 +52,9 @@ Scroll Top CSS
 .header-bg{
   background: #f9fbfc;
 }
+.gray-bg {
+  background: #f7f7fd;
+}
 .scroll-up svg path {
   fill: none;
 }
