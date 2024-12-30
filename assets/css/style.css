@@ -672,6 +672,10 @@ Theme Btn CSS
 .price-box:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+.price-box .price-header .price-icon {
+  width: 100%;
+  height: 100px;
+}
 .price-header h4 {
   font-size: 24px;
   padding-bottom: 20PX;
